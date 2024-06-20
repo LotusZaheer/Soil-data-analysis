@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cc74206e-5fb7-4659-870c-699e07d47979" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entregable.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Entregable.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/moonw/Desktop/Analisis dedatos tics/Retos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/moonw/Desktop/Analisis dedatos tics/Retos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,6 +74,8 @@
       <workItem from="1716946188704" duration="27000" />
       <workItem from="1716946244970" duration="8108000" />
       <workItem from="1717003102670" duration="34999000" />
+      <workItem from="1718748058141" duration="6365000" />
+      <workItem from="1718836027532" duration="1140000" />
     </task>
     <servers />
   </component>
@@ -83,7 +87,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="NONE" type="jupyter-line">
           <url>notebook://C:/Users/moonw/Desktop/Analisis dedatos tics/Cocreacion/Trabajo_cocreacion/Data Analysis.ipynb</url>
-          <line>195</line>
+          <line>185</line>
           <log-expression expression="ig, axs = plt.subplots(2, 2, figsize=(12, 18))&#10;&#10;axs[0].barh(cultivos_mas_comunes_cundinamarca['Cultivo'], cultivos_mas_comunes_cundinamarca['Count'], color='skyblue')&#10;axs[0].set_xlabel('Count')&#10;axs[0].set_ylabel('Cultivo')&#10;axs[0].set_title('Cantidad de cada cultivo en cundinamarca ')&#10;axs[0].invert_yaxis()  ## Invertir el eje y para que el cultivo con mayor count esté arriba&#10;axs[0].grid(True)&#10;&#10;axs[1].barh(cultivos_mas_comunes_bogota['Cultivo'], cultivos_mas_comunes_bogota['Count'], color='lightgreen')&#10;axs[1].set_xlabel('Count')&#10;axs[1].set_ylabel('Cultivo')&#10;axs[1].set_title('Cantidad de cada cultivo en Bogotá')&#10;axs[1].invert_yaxis()&#10;axs[1].grid(True)&#10;&#10;axs[2].barh(cultivos_mas_comunes_boyaca['Cultivo'], cultivos_mas_comunes_boyaca['Count'], color='salmon')&#10;axs[2].set_xlabel('Count')&#10;axs[2].set_ylabel('Cultivo')&#10;axs[2].set_title('Cantidad de cada cultivo en Boyacá')&#10;axs[2].invert_yaxis()&#10;axs[2].grid(True)&#10;&#10;axs[3].pie(conteo_departamento)&#10;plt.show()" language="Python" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
